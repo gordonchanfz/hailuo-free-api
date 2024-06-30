@@ -8,7 +8,7 @@ import logger from '@/lib/logger.ts';
 
 export default {
 
-    prefix: '/v1/chat',
+    prefix: '/hf/v1/chat',
 
     post: {
 
