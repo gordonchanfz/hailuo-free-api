@@ -25,7 +25,7 @@ const REPLACE_AUDIO_MODEL = Object.values(modelMap["tts-1"]).map(
 );
 
 export default {
-  prefix: "/v1/audio",
+  prefix: "/hf/v1/audio",
 
   post: {
     "/speech": async (request: Request) => {
